@@ -1,0 +1,1 @@
+#car pool capacity was defined & named "carppol_capacity" instead of "car_pool_capacity" like it was used, which is not declared
