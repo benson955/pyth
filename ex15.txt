@@ -1,0 +1,3 @@
+this is a simple text file
+this is awaiting to be read by a python file
+which hopefully wont crash

@@ -1,3 +1,21 @@
-import sys
-print("this is ", sys.argv[0])
-input("you may enter something you desire \n")
+from sys import argv
+
+script, user_name, grade = argv
+prompt = 'enner something ay > '
+
+print ("Hi %s from grade %s, I'm the %s script." % (user_name, grade, script))
+print ("I'd like to ask you a few questions.")
+print ("Do you like me %s?" % user_name)
+likes = input(prompt)
+
+print ("Where do you live %s?" % user_name)
+lives = input(prompt)
+
+print ("What kind of computer do you have?")
+computer = input(prompt)
+
+print ("""
+Alright, so you said %r about liking me.
+You live in %r.  Not sure where that is.
+And you have a %r computer.  Nice.
+""" % (likes, lives, computer))
