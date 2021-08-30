@@ -1,1 +1,1 @@
-input("this is an input, type what you want \n")
+#no code to be written here

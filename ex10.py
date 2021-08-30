@@ -6,6 +6,7 @@ persian_cat = "I'm split\non a line."
 backslash_cat = "I'm \\ a \\ cat."
 
 #a paragraph with tabs, new lines inside
+#using triple singles, no noticeable difference
 fat_cat = '''
 I'll do a list:
 \t* Cat food
@@ -21,5 +22,8 @@ print (fat_cat)
 print ("this is a \n relatively more complex \'string\' being \\printed\\")
 
 #a format of 3 variables and using in a printing string
+formatter = "%r %r %r"
+print (formatter %("a", "b", "c"))
+
 formatter = "%s %s %s"
 print (formatter %("a", "b", "c"))
