@@ -22,8 +22,8 @@ file_again = (input("> "))
 #read the file
 txt_again = open(file_again)
 
-#stop reading the file
-txt_again.close()
-
 #displaying the contents
 print (txt_again.read())
+
+#stop reading the file
+txt_again.close()
