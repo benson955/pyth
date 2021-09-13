@@ -14,12 +14,12 @@ target = open(file, 'w')
 
 #clearing the file
 print("erasing file, type in 3 lines")
-target.truncate
+target.truncate()
 
 #getting 3 input lines
-l1 = input("l1 -");
-l2 = input("l2 -");
-l3 = input("l3 -");
+l1 = input("l1 -")
+l2 = input("l2 -")
+l3 = input("l3 -")
 
 print("writing to file")
 
